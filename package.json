@@ -1,0 +1,39 @@
+{
+  "name": "cupboard",
+  "version": "0.0.1",
+  "author": "Craig Maslowski <craig@craigmaslowski.com>",
+  "description": "Better templating with plates",
+  "contributors": [ 
+    {
+      "name": "Craig Maslowski",
+      "email": "craig@craigmaslowski.com"
+    } 
+  ],
+  "main": "./lib/cupboard",
+  "scripts": {
+    "test": "jasmine-node --color --verbose ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craigmaslowski/cupboard.git"
+  },
+  "keywords": [
+    "cupboard",
+    "templates",
+    "templating",
+    "plates",
+    "flatiron",
+    "flatiron plates"
+  ],
+  "dependencies" : {
+    "objectify":  ">=0.0.2",
+    "plates":  ">=0.4.6"
+  },
+  "devDependencies": {
+    "jasmine-node":  ">=1.0.26"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6.15"
+  }
+}
