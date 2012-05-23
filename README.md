@@ -35,3 +35,6 @@ var templates = cupboard('./templates/'),
 templates.dashboard.index.map.where('href').is('/').insert('home'); // call Plates' map functions
 templates.dashboard.index.bind(data); // call Plates' bind function, passing the map in as well.
 ```
+
+## Notes
+All file operations are performed synchronously. As such, it's best to use objectify when your app starts.
