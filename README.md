@@ -37,4 +37,4 @@ templates.dashboard.index.bind(data); // call Plates' bind function, passing the
 ```
 
 ## Notes
-All file operations are performed synchronously. As such, it's best to use objectify when your app starts.
+All file operations are performed synchronously. As such, it's best to use Cupboard when your app starts.
