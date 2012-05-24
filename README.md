@@ -33,7 +33,7 @@ var templates = cupboard('./templates/'),
 	data = { home: '/home' };
 
 templates.dashboard.index.map.where('href').is('/').insert('home'); // call Plates' map functions
-templates.dashboard.index.bind(data); // call Plates' bind function, passing the map in as well.
+templates.dashboard.index.bind(data); // call Plates' bind function. templates.dashboard.index.map is passed in internally.
 ```
 
 ## Notes
