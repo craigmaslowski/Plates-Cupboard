@@ -1,11 +1,11 @@
 Cupboard
 ========
-[![Build Status](https://secure.travis-ci.org/craigmaslowski/cupboard.png)](http://travis-ci.org/craigmaslowski/cupboard)
+[![Build Status](https://secure.travis-ci.org/craigmaslowski/plates-cupboard.png)](http://travis-ci.org/craigmaslowski/plates-cupboard)
 
 Cupboard is a wrapper around [Plates](https://github.com/flatiron/plates). It loads templates from disk and wraps them in an object with a map and bind function.
 
 ~~~
-npm install cupboard
+npm install plates-cupboard
 ~~~
 
 ## Usage
